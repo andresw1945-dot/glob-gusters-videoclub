@@ -1,0 +1,3 @@
+-- Base de datos   Relacional Glob_Gusters video "Gusters": unknown
+-- Autor: Andres Mateo Lugo Lopez
+-- Fecha:2024-06-10
