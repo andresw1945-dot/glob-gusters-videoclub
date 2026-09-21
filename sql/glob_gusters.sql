@@ -11,10 +11,10 @@ CREATE TABLE Nacionalidad (
   
 );
 
-CREATE TABLE if NOT EXISTS actor(
- NacionalidadID int PRIMARY KEY,
+CREATE TABLE if NOT EXISTS Actor(
+  ActorID int PRIMARY KEY,
   Nombre varchar(100) NOT NULL,
   Sexo varchar(20) NOT NULL,
   NacionalidadID int,
-  FOREIGN KEY(NacionalidadID)REFERENCES Ncionalidad(NacionalidadID)
+  FOREIGN KEY(NacionalidadID) REFERENCES Nacionalidad(NacionalidadID)
 );
